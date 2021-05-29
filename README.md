@@ -1,4 +1,4 @@
-# NFT + Liquid Stacking
+# NFT + Liquid Staking
 
 
 
