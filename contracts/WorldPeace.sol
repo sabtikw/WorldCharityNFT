@@ -127,7 +127,7 @@ function supportsInterface(bytes4 interfaceId) public view virtual override(ERC7
 }
    
     function _baseURI() internal pure override returns (string memory) {
-        return "";
+        return "ipfs_provider.xyz";
     }
 
 
