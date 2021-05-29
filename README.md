@@ -18,18 +18,28 @@
 -   pytest unit testing
 -   React, npm and etherjs
 
+## How to run
+
+1. install Brownie-eth then in the main directory run :
+   1.  `brownie compile`
+   2.  `brownie test`
+2.  in a new terminal run
+    1.  `ganache-cli --port 8545 --gasLimit 12000000 --accounts 10 --hardfork istanbul --mnemonic very unusual thrive report daring stereo pulp fabric alien poet alarm chaos`
+3. open a new termianl in `client` directory then run:
+   1. `npm install`
+   2. `npm start`
 
 
 ## TODO (this code is not complete)
-1. Smart Contract :
+1. **Smart Contract** :
    1. owner should have the ability to set amount for transfer when approve the NFT (see React/Transfer)
    2. use unstructured storage proxy pattern
    3. implement voting smart contract for the DAO or just use Aragon(see React/Gover) !
    4. remove some functions
-2. Brownie-eth
+2. **Brownie-eth**
    1. addd tests for events
    2. ensure 100% test coverage
-3. React/Frontend
+3. **React/Frontend**
    1. Dashboard
       1. add world map with NFT ownership
    2. Govern
